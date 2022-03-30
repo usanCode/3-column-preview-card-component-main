@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom:10px;
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    margin:3.5rem;
+    
+    width:100%;
+    
+}
+
+.mainContainer{
+    display:grid;
+    grid-template-columns: 30% 30% 30%; 
+    grid-template-rows:50% 5%;
+    margin:auto;
+  
+
+}
+.firstContainer{
+    background-color: hsl(31, 77%, 52%) ;
+   grid-column-start:1 ;
+   grid-column-end: 2;
+   grid-row-start:1 ;
+   grid-row-end: 2;
+   padding: 3rem;
+   font-family:Lexend Deca ;
+    font-weight: 400;
+}
+.sedans_butt_container{
+    background-color: hsl(31, 77%, 52%) ;
+   grid-column-start:1 ;
+   grid-column-end: 2;
+   grid-row-start:2 ;
+   grid-row-end: 3;
+   padding-bottom: 6rem;
+   padding-top: 2rem;
+   padding-right: 3rem;
+   padding-left: 3rem;
+   
+   
+}
+
+.secondContainer{
+    background-color: hsl(184, 100%, 22%) ;
+    grid-column-start:2 ;
+   grid-column-end: 3;
+   grid-row-start:1 ;
+   grid-row-end: 2; 
+   padding: 3rem; 
+   font-family:Lexend Deca ;
+    font-weight: 400;
+}
+
+.suvs_butt_container{
+    background-color: hsl(184, 100%, 22%) ;
+    grid-column-start:2 ;
+   grid-column-end: 3;
+   grid-row-start:2 ;
+   grid-row-end: 3; 
+   padding-bottom: 6rem;
+   padding-top: 2rem;
+   padding-right: 3rem;
+   padding-left: 3rem;
+}
+
+.thirdContainer{
+    
+    background-color: hsl(179, 100%, 13%) ;
+    grid-column-start:3 ;
+    grid-column-end: 4;
+    grid-row-start:1 ;
+    grid-row-end: 2;
+    padding: 3rem;
+    font-family:Lexend Deca ;
+    font-weight: 400;
+
+}
+
+.luxury_butt_container {
+    background-color: hsl(179, 100%, 13%) ;
+    grid-column-start:3 ;
+    grid-column-end: 4;
+    grid-row-start:2 ;
+    grid-row-end: 3;
+    padding-bottom: 6rem;
+   padding-top: 2rem;
+   padding-right: 3rem;
+   padding-left: 3rem;
+
+}
+
+
+h1{
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    font-family: Big Shoulders Display;
+    font-weight: 700;
+
+}
+.sedans_button{
+    
+    width: 120px;
+    background-color:hsl(0, 0%, 95%) ;
+    border-color:hsl(0, 0%, 95%) ;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top:20px;
+    font-family:Lexend Deca ;
+    font-weight: 400;
+
+}
+.sedans_button::after{
+    content: "Learn More";
+    font-size: 15px;
+    padding:auto;
+    font-family:Lexend Deca ;
+    font-weight: 400;
+    
+}
+ .sedans_button:hover{
+    cursor:pointer;
+    background-color:hsl(31, 77%, 52%);
+    border-color:white ;
+    border-width:1px ;
+    color:hsl(0, 0%, 95%);  
+    font-family:Lexend Deca ;
+    font-weight: 400;
+
+}
+
+.luxury_button{
+    width: 120px;
+    background-color:hsl(0, 0%, 95%) ;
+    border-color:hsl(0, 0%, 95%) ;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top:20px;
+    font-family:Lexend Deca ;
+    font-weight: 400;
+
+}
+.luxury_button::after{
+    content: "Learn More";
+    font-size: 15px;
+    padding:auto;
+    font-family:Lexend Deca ;
+    font-weight: 400;
+
+    
+}
+ .luxury_button:hover{
+    cursor:pointer;
+    background-color:hsl(179, 100%, 13%);
+    border-color:white ;
+    border-width:1px ;
+    color:hsl(0, 0%, 95%);  
+    font-family:Lexend Deca ;
+    font-weight: 400;
+
+}
+.suvs_button{
+    
+    width: 120px;
+    background-color:hsl(0, 0%, 95%) ;
+    border-color:hsl(0, 0%, 95%) ;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top:20px;
+    font-family:Lexend Deca ;
+    font-weight: 400;
+
+}
+.suvs_button::after{
+    content: "Learn More";
+    font-size: 15px;
+    padding:auto;
+    font-family:Lexend Deca ;
+    font-weight: 400;
+    font-family:Lexend Deca ;
+    font-weight: 400;
+
+    
+}
+ .suvs_button:hover{
+    
+    cursor:pointer;
+    background-color:hsl(184, 100%, 22%);
+    border-color:white ;
+    border-width:1px ;
+    color:hsl(0, 0%, 95%);   
+    font-family:Lexend Deca ;
+    font-weight: 400;
+
+}
+
+@media screen and (max-width:765px) {
+    body{
+        background-color: hsl(0, 0%, 95%);
+        font-size: 15px;
+        width:100%;
+        margin:auto;
+        
+    }
+    
+    .mainContainer{
+        display:grid;
+        grid-template-columns: 80% ; 
+        grid-template-rows:23%  10% 23% 10% 23% 10%;
+       
+        
+      
+    
+    }
+    .firstContainer{
+        background-color: hsl(31, 77%, 52%) ;
+       grid-column-start:1 ;
+       grid-column-end: 2;
+       grid-row-start:1 ;
+       grid-row-end: 2;
+       padding: 1.9rem;
+       font-family:Lexend Deca ;
+    font-weight: 400;
+    }
+    
+    .sedans_butt_container{
+        background-color: hsl(31, 77%, 52%) ;
+       grid-column-start:1 ;
+       grid-column-end: 2;
+       grid-row-start:2 ;
+       grid-row-end: 3;
+       padding-right: 1.9rem;
+        padding-left: 1.9rem;
+        padding-bottom:0;
+        padding-top: 0;
+       
+       
+    }
+    .secondContainer{
+        background-color: hsl(184, 100%, 22%) ;
+        grid-column-start:1 ;
+       grid-column-end: 2;
+       grid-row-start:3 ;
+       grid-row-end: 4; 
+       padding: 1.9rem;
+       font-family:Lexend Deca ;
+    font-weight: 400;
+        
+    }
+    .suvs_butt_container{
+        background-color: hsl(184, 100%, 22%) ;
+        grid-column-start:1 ;
+       grid-column-end: 2;
+       grid-row-start:4 ;
+       grid-row-end: 5; 
+       padding-right: 1.9rem;
+        padding-left: 1.9rem;
+        padding-bottom:0;
+        padding-top: 0;
+       
+    }
+
+    .thirdContainer{
+        
+        background-color: hsl(179, 100%, 13%) ;
+        grid-column-start:1 ;
+        grid-column-end: 2;
+        grid-row-start:5 ;
+        grid-row-end: 6;
+        padding: 1.9rem;
+        font-family:Lexend Deca ;
+    font-weight: 400;
+    
+    }
+    .luxury_butt_container {
+        background-color: hsl(179, 100%, 13%) ;
+        grid-column-start:1 ;
+        grid-column-end: 2;
+        grid-row-start:6 ;
+        grid-row-end: 7;
+        padding-right: 1.9rem;
+        padding-left: 1.9rem;
+        padding-bottom:0;
+        padding-top: 0;
+        
+    }
+
+}
