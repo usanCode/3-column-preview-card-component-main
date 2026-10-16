@@ -4,7 +4,7 @@
 This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). 
 Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-Here is the [LIVE DEMO] (https://my-3-columns-preview-card-component.netlify.app/)
+Here is the [LIVE DEMO](https://my-3-columns-preview-card-component.netlify.app/)
 
  ![desktop-design](https://user-images.githubusercontent.com/60264357/170045513-829e425e-a239-466d-9d68-435942134075.jpg)
 
